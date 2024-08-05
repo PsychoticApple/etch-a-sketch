@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 600px;
+}
+
+.box {
+  background-color: blue;
+  padding: 60px;
+}
