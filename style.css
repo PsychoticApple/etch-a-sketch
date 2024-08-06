@@ -6,18 +6,20 @@
 
 body {
   display: flex;
-  justify-content: center;
-  margin: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  background-color: black;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  width: 600px;
+  width: 500px;
+  height: auto;
 }
 
 .box {
   background-color: blue;
-  padding: 60px;
+  padding: 5%;
 }
